@@ -1,8 +1,9 @@
 // COLORES
 rojo = #DD1834
 blanco = #FFF
-verde = #2ecc71
+verde = #000
 negro = #000
+gris = #9B9B9B
 
 
 *
@@ -19,6 +20,7 @@ a
 body
 	font-size 16px
 	font-family roboto
+	height 100%
 
 h1, h2, h5, p
 	position relative
@@ -54,7 +56,8 @@ h5
 
 footer
 	background #C3152E
-	padding 1em 0
+	padding 1.5em 0 .5em 0
+	text-align center
 
 p
 	top -1em
@@ -96,10 +99,65 @@ p
 	background-image -o-linear-gradient(#E41936 0%, #DD1834 53%, #C3152E 100%)
 	background-image linear-gradient(#E41936 0%, #DD1834 53%, #C3152E 100%)
 	height 608px
+	position relative
+	article
+		float right
+		width 55%
+		p
+			width 50%	
+	div
+		.bajador
+			left 1.5em
+			position relative
+			top 6em
+	figure
+		background verde
+		float left
+		margin-right 1em
+		position relative
+
 
 #willi
 	background #E2E2E4
 	height 628px
+	aside
+		position relative
+		border-left
+		ul
+			list-style-type: none;
+			margin 0
+			padding 0 0 0 .6em
+			border-left 2px solid gris
+
+			li
+				margin 0
+				font-size 22px
+				
+				span
+					color rojo
+					font-family roboto
+					font-size 22px
+					font-weight 700
+					text-transform uppercase
+			.fecha
+				color gris
+				font-weight 300
+				padding 0 0 .6em 1.2em
+				margin-top -.4em
+				font-size 16px
+					
+
+	article
+		text-align right
+		width 42%
+		padding 3em 0
+	figure
+		float right
+		margin-right 2em
+		vertical-align bottom
+		position relative
+		background verde
+		
 
 
 

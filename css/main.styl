@@ -2,6 +2,7 @@
 azul = #273756
 blanco = #FFF
 gris = #9B9B9B
+otroGris = #e2e2e4
 negro = #000
 rojo = #DD1834
 casoBlanco = rgba(255,255,255, .8)
@@ -60,23 +61,22 @@ h5
 	font-weight 300
 
 header
-	background url('../img/bg2.jpg') azul no-repeat center
+	background url('../img/bg2.jpg') negro no-repeat center fixed
 	background-position-y: 0px;
 	background-size cover	
 	height 100%
-	min-height 636px
+	min-height 616px
 	padding 2em 0
 	figure
 		margin 4em auto 0
 		width 51%
-	
 	.cinturones
 		background blanco
 		height 43px
 		width 409px
 		position absolute
 		display inline-block
-		z-index 3
+		z-index 5
 		top 519px
 		&:last-child
 			right 0
@@ -93,20 +93,8 @@ header
 		box-shadow 0 1px 0 reNegro
 		&:last-child
 			margin-right 0
-			margin-left 1em
-	.webtour
-		color blanco
-		font-size 1.8em
-		font-weight 300
-		margin 0 auto
-		padding 1em 0 0
-		text-align center
-		width 80%
+			margin-left 1em			
 		
-				
-		
-
-
 footer
 	background #C3152E
 	padding 1.5em 0 .5em 0
@@ -125,55 +113,9 @@ p
 	background no-repeat , linear-gradient(-180deg, #949BA5 0%, #BEC3C9 100%)
 	height 608px
 	position relative
-	article
-		float right
-		width 49%
-		h4, h5
-			font-family helvetica, arial, sans-serif
-		h4
-			margin-top 12em
-		p
-			font-family helvetica, arial, sans-serif
-			width 100%
-			margin-top 3em
-			// &:last-child
-			// 	margin-left 4em
-
-	figure
-		float left
-		margin 0
-		position relative
-		top 1px
-
-
-#andres
-	background-image -webkit-linear-gradient(#E41936 0%, #DD1834 53%, #C3152E 100%)
-	background-image -o-linear-gradient(#E41936 0%, #DD1834 53%, #C3152E 100%)
-	background-image linear-gradient(#E41936 0%, #DD1834 53%, #C3152E 100%)
-	height 604px
-	position relative
-	article
-		float right
-		width 55%
-		p
-			width 50%	
-	div
-		.bajador
-			left 1.5em
-			position relative
-			top 6em
-	figure
-		float left
-		margin-right 1em
-		position relative
-
-
-#willi
-	background #E2E2E4
-	height 603px
 	aside
 		position relative
-		top -2em
+		top 1em
 		ul
 			list-style-type: none;
 			margin 0
@@ -191,11 +133,63 @@ p
 					font-weight 700
 					text-transform uppercase
 			.fecha
-				color gris
+				color reNegro
 				font-weight 300
 				padding 0 0 .6em 1.2em
 				margin-top -.4em
-				font-size 16px				
+				font-size 16px	
+	article
+		float right
+		width 49%
+		h4, h5
+			font-family helvetica, arial, sans-serif
+		h4
+			margin-top 6.2em
+		p
+			font-family helvetica, arial, sans-serif
+			width 100%
+			margin-top 1em
+
+	figure
+		float left
+		margin 0
+		position relative
+		top 1px
+
+
+#andres
+	background-image -webkit-linear-gradient(#E41936 0%, #DD1834 53%, #C3152E 100%)
+	background-image -o-linear-gradient(#E41936 0%, #DD1834 53%, #C3152E 100%)
+	background-image linear-gradient(#E41936 0%, #DD1834 53%, #C3152E 100%)
+	height 607px
+	position relative
+	article
+		float right
+		width 49%
+		p
+			width 92%	
+	div
+		.bajador
+			right 3em
+			position absolute
+			top 25em
+	figure
+		float left
+		margin-right 1em
+		position absolute
+	h4
+		margin-top 4.5em
+#info
+	background blanco
+	padding 2em 0 1em
+	box-shadow 0 3px 0 reNegro
+	p
+		color rojo
+
+#willi
+	background #E2E2E4
+	height 603px
+					
 
 	article
 		padding 3em 0
@@ -206,12 +200,18 @@ p
 		margin-right 2em
 		overflow hidden
 		position relative
-		top -5px
 		vertical-align bottom
 		
 
-
-
+.webtour
+	color blanco
+	font-size 1.8em
+	font-weight 300
+	margin 0 auto
+	padding 1em 0 0
+	text-align center
+	width 80%
+	
 .contenedor
 	max-width 960px
 	margin 0 auto

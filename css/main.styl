@@ -24,6 +24,29 @@ body
 	font-family roboto
 	height 100%
 
+
+footer
+	background negro
+	padding 1em 0 2em
+	height 50px
+	position absolute
+	width 100%
+	a
+		border 2px solid blanco
+		border-radius 3pc
+		color blanco
+		display block
+		margin 0 auto
+		padding 1em
+		position relative
+		text-align center
+		top .5em
+		width 30%
+		&:hover
+			background rojo
+			border 2px solid rojo
+		
+
 h1, h2, h5, p
 	position relative
 	margin 0
@@ -73,14 +96,14 @@ header
 	.cinturones
 		background blanco
 		height 43px
-		width 409px
+		width 32%
 		position absolute
 		display inline-block
 		z-index 5
 		top 519px
 		&:last-child
 			right 0
-			width 420px 
+			width 33% 
 		
 	.barra
 		background rojo
@@ -94,11 +117,6 @@ header
 		&:last-child
 			margin-right 0
 			margin-left 1em			
-		
-footer
-	background #C3152E
-	padding 1.5em 0 .5em 0
-	text-align center
 
 p
 	top -1em
@@ -161,8 +179,9 @@ p
 	background-image -webkit-linear-gradient(#E41936 0%, #DD1834 53%, #C3152E 100%)
 	background-image -o-linear-gradient(#E41936 0%, #DD1834 53%, #C3152E 100%)
 	background-image linear-gradient(#E41936 0%, #DD1834 53%, #C3152E 100%)
-	height 607px
+	height 613px
 	position relative
+	width 100%
 	article
 		float right
 		width 49%
@@ -180,15 +199,17 @@ p
 	h4
 		margin-top 4.5em
 #info
-	background blanco
+	background-image -webkit-linear-gradient(#E41936 0%, #DD1834 53%, #C3152E 100%)
+	background-image -o-linear-gradient(#E41936 0%, #DD1834 53%, #C3152E 100%)
+	background-image linear-gradient(#E41936 0%, #DD1834 53%, #C3152E 100%)
 	padding 2em 0 1em
 	box-shadow 0 3px 0 reNegro
 	p
-		color rojo
+		color blanco
 
 #willi
 	background #E2E2E4
-	height 603px
+	height 430px
 					
 
 	article
@@ -201,6 +222,7 @@ p
 		overflow hidden
 		position relative
 		vertical-align bottom
+		top -3px
 		
 
 .webtour
@@ -219,3 +241,9 @@ p
 
 .clear
 	clear both
+	
+@media (max-width: 540px)
+	img
+		height 80%
+	.contenedor
+		max-width 500px

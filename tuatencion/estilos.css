@@ -1,0 +1,431 @@
+/*Agregar lo creditos tanto en la web como aquí*/
+
+
+body{
+	background: #fff;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	margin: 0;
+	color: #2D3033;
+}
+
+
+button{
+	background-color: #6DCF79;
+	border-bottom: 4px solid #398A46 !important;
+	border-radius: .2em;
+	border: 0;
+	color: #fff;
+	display: block;
+	font-size: 21px;
+	font-weight: 400;
+	height: 42px;
+	margin-top: 20px;
+	margin: 0 auto;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+	width: 90%;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: 400;
+	margin: -.3em 0 0 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+h2{
+	font-size: 26px;
+	font-weight: 300;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3{
+	font-size: 40px;
+	font-weight: 400;
+	margin: 0;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.75);
+}
+
+h4{
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.75);	
+}
+
+
+header{
+		-moz-box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+		-webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+	background: #333;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+	height: 40px;
+	line-height: 40px;
+	margin:-1.4em 0 4em 0; 
+	opacity: 0.95;
+	position:fixed;
+	width: 100%;
+	z-index: 1;
+}
+ header img{
+ 	vertical-align:bottom;
+ }
+
+nav{
+	float: right;
+	position: relative;
+	height: .6em;
+	line-height: .6em;
+	z-index: 2;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	 -webkit-transition: all 0.5s ease;
+	 -moz-transition: all 0.5s ease;
+	 webkit-transition: all 0.5s ease;
+}
+
+ nav ul li{
+	color: #fff;
+	display: inline-block;
+	padding: .1em 1em .2em 0;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 12px;
+ }
+
+
+#beneficios{
+	background:#333; 
+	box-shadow: 0px 0px 70px rgba(0,0,0,.4);
+	height: 220px;
+	margin-top: -166px;
+	padding: 3em 0 6em 0;
+}
+
+
+#beneficios h4{
+	width: 230px;
+	text-align:center;
+	margin-top: -.1em; 
+	font-size: 20px;
+	line-height: 1.2em;
+}
+
+
+#beneficios span{
+	font-weight: 400;
+	color: #fff;
+}
+
+
+#beneficios img{
+	left: 2.6em;
+	position: relative;
+}
+
+
+#beneficios ul li{
+	color:#c7c7c7;
+	font-size: 24px;
+	list-style: none;
+	margin: .6em -.5em 1em 0;
+	font-weight: 300;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.75);
+	display: inline-block;
+	padding: 0 1em;
+}
+
+
+#clientes{
+	top:-9em;
+	position: relative;
+	height: 600px;
+}
+
+
+#clientes h3{
+	color: #2D3033;
+}
+
+#clientes ul{
+position: relative;
+}
+
+
+#clientes ul li{
+	display: inline-block;
+}
+
+.formulario-principal{
+	background: #FAFAFA;
+	border: 1px solid #CCC;
+	display: inline-block;
+	float: right;
+	height: 331px;
+	padding: 1.3em 0 2em 0;
+	position: relative;
+	top: -16.3em;
+	width: 330px;
+}
+
+.formulario-principal a{
+	color: #399FD6;
+	text-decoration: none;
+}
+
+
+.formulario-principal input{
+	border-radius: .2em;
+	border: solid 1px #C7CDD4;
+	display: block;
+	margin: 0 auto 1.6em auto;
+	padding: .3em;
+	width: 87%;
+}
+
+.formulario-principal p{
+	text-align: center;
+	font-size: 11px;
+	font-family: arial;
+	padding-bottom: 1em;
+}
+
+.formulario-principal label{
+	color: #2D3033;
+	padding: 0 0 0 1em;
+}
+
+
+
+.formulario-abajo{
+	background: #FAFAFA;
+	border: 1px solid #CCC;
+	display: inline-block;
+	float: left;
+	padding: 2em;
+	width: 93%;
+	position: relative;
+	top: 2em;
+	height: 45px
+}
+
+.formulario-abajo button{
+	width: 26%;
+	float:right;
+}
+
+.formulario-abajo input{
+	border-radius: .2em;
+	border: solid 1px #C7CDD4;
+	display: inline-block;
+	margin: 0 1em 1.6em auto;
+	padding: .5em;
+	width: 20%;
+}
+
+
+
+
+#last-call-to-action{
+	padding: 2em 0;
+}
+
+
+#last-call-to-action h3{
+	color:#2D3033;
+	float: left;
+	line-height: 1em;
+}
+
+
+
+#te-encantan{
+	float: left;
+	position: relative !important;
+	width: 515px !important;
+	margin:  1em 0 0 1em !important;
+}
+
+#te-encantan h3{
+	background: #333;
+	border-radius: 0 0 .3em 0.3em;
+	color: #fff;
+	font-weight: 400;
+	margin-left: 1em;
+	margin-top: -2em !important;
+	padding: 1em;
+	text-align: center;
+	width: 68%;
+	font-size: 1.2em;
+}
+
+#te-encantan img{
+	border-radius: 100%;
+	border: 5px solid #333;
+	display: inline-block;
+	margin-left: .14em;
+	width: 80%;
+}
+
+#te-encantan ul{
+	display: inline-block;
+}
+
+#te-encantan ul li{
+	display: inline-block;
+	padding: 0 .5em;
+}
+
+#te-encantan ul li{
+	display: inline-block;
+	padding: 0 .5em;
+}
+
+#te-encantan ul li:first-child{
+	padding: 0 .5em 0 0;
+}
+
+/*  ANIMACIÓN PARA LAS IMAGENES DEL LIKE DE CADA PROSPECTO */
+#te-encantan ul li:hover{
+		transition: .2s linear;
+		transform: scale(1.2);
+		-webkit-transform: scale(1.2);
+}
+
+#tu-atencion{
+	top: 4em;
+	position: relative;
+	margin-bottom: 5.6em;
+}
+
+#video-personal{
+	display: inline-block;
+	padding-top: 3em;
+	width: 480px;
+}
+
+#video-personal #video{
+	width: 460px;
+	height: 259px;
+	display: inline-block;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.contenedor{
+	margin: 0 auto;
+	width: 905px;
+}
+
+.contenedor-2{
+	margin: 0 auto;
+	width: 960px;
+}
+
+
+.clear{
+	clear: both;
+}
+
+.ficha-tecnica{
+	float: right;
+	position: relative;
+	top: -26em;
+}
+
+.ficha-tecnica h3, .ficha-tecnica h4{
+	color: #fff !important;
+}
+
+.ficha-tecnica h4{
+	font-size: 18px;
+	margin: -.2em 0 0 0;	
+}
+
+.ficha-tecnica .testimonio{
+	background: #6DCF79;
+	border-bottom: 4px solid #398A46 !important; 
+	border-radius: .5em;
+	margin: 2em 0 0 0;
+	width: 440px;
+}
+
+
+.ficha-tecnica .testimonio blockquote{
+	color: #374D18;
+	font-size: 22px;
+	padding: 1.6em 0 1em 0;
+	text-align: left;
+}
+
+.ficha-tecnica .testimonio blockquote strong{
+	font-family: helvetica, arial;
+}
+
+
+.ficha-tecnica .testimonio img{
+	height: 25px;
+	left:3em;
+	position: relative;
+	top:-1.2em;
+	width: 38px;
+}
+
+
+/*SLIDESHOW */
+.rslides {
+  background-size: cover;
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 600px;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+
+@media all and (max-height: 100px) {
+  header {
+  	background: #000;
+  }
+}
